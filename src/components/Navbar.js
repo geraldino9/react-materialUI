@@ -7,6 +7,7 @@ const StyledToolBar = styled(Toolbar)(
   {
     display:"flex",
     justifyContent:"space-between",
+    backgroundColor:"green"
   
   }
 );
@@ -45,7 +46,7 @@ export const Navbar = () => {
     <AppBar position="sticky">      
       <StyledToolBar>
         <Typography variant='h6' sx ={{display:{xs:"none", sm:"block"}}} >
-          navbar
+          Nombre de la aplicacion
         </Typography>
         <Pets sx ={{display:{xs:"block", sm:"none"}}}/>
         <Search> <InputBase placeholder='Search...'/> </Search>
